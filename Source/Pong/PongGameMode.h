@@ -26,7 +26,7 @@ public:
 	UFUNCTION(BlueprintImplementableEvent, BlueprintCallable, Category= "Logic")
 	void SpawnNewBall();
 
-	UPROPERTY(BlueprintReadWrite, Category = "References", meta = (BlueprintProtected))
+	UPROPERTY(BlueprintReadWrite, Category = "References")
 	ABall* BallRef;
 	
 protected:
